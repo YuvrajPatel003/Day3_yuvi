@@ -12,6 +12,30 @@
 		7F69D46E191AA6D200C744A4 /* day3.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F69D46D191AA6D200C744A4 /* day3.1 */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7F69D492191AB75400C744A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F69D48E191AB75300C744A4 /* operators_day3.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7F69D47D191AB75300C744A4;
+			remoteInfo = operators_day3;
+		};
+		7F69D4B2191ABC5C00C744A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F69D4AE191ABC5B00C744A4 /* calculator_yuvi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7F69D49D191ABC5B00C744A4;
+			remoteInfo = calculator_yuvi;
+		};
+		7F69D4D2191AC29D00C744A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F69D4CE191AC29D00C744A4 /* forloop.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7F69D4BD191AC29C00C744A4;
+			remoteInfo = forloop;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		7F69D461191AA6D200C744A4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -31,6 +55,9 @@
 		7F69D469191AA6D200C744A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F69D46C191AA6D200C744A4 /* day3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "day3-Prefix.pch"; sourceTree = "<group>"; };
 		7F69D46D191AA6D200C744A4 /* day3.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = day3.1; sourceTree = "<group>"; };
+		7F69D48E191AB75300C744A4 /* operators_day3.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = operators_day3.xcodeproj; path = ../operators_day3/operators_day3.xcodeproj; sourceTree = "<group>"; };
+		7F69D4AE191ABC5B00C744A4 /* calculator_yuvi.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = calculator_yuvi.xcodeproj; path = ../calculator_yuvi/calculator_yuvi.xcodeproj; sourceTree = "<group>"; };
+		7F69D4CE191AC29D00C744A4 /* forloop.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = forloop.xcodeproj; path = ../forloop/forloop.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +75,9 @@
 		7F69D45A191AA6D200C744A4 = {
 			isa = PBXGroup;
 			children = (
+				7F69D4CE191AC29D00C744A4 /* forloop.xcodeproj */,
+				7F69D4AE191ABC5B00C744A4 /* calculator_yuvi.xcodeproj */,
+				7F69D48E191AB75300C744A4 /* operators_day3.xcodeproj */,
 				7F69D468191AA6D200C744A4 /* day3 */,
 				7F69D465191AA6D200C744A4 /* Frameworks */,
 				7F69D464191AA6D200C744A4 /* Products */,
@@ -86,6 +116,30 @@
 				7F69D46C191AA6D200C744A4 /* day3-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F69D48F191AB75300C744A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F69D493191AB75400C744A4 /* operators_day3 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F69D4AF191ABC5B00C744A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F69D4B3191ABC5C00C744A4 /* calculator_yuvi */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F69D4CF191AC29D00C744A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F69D4D3191AC29D00C744A4 /* forloop */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,12 +181,50 @@
 			mainGroup = 7F69D45A191AA6D200C744A4;
 			productRefGroup = 7F69D464191AA6D200C744A4 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7F69D4AF191ABC5B00C744A4 /* Products */;
+					ProjectRef = 7F69D4AE191ABC5B00C744A4 /* calculator_yuvi.xcodeproj */;
+				},
+				{
+					ProductGroup = 7F69D4CF191AC29D00C744A4 /* Products */;
+					ProjectRef = 7F69D4CE191AC29D00C744A4 /* forloop.xcodeproj */;
+				},
+				{
+					ProductGroup = 7F69D48F191AB75300C744A4 /* Products */;
+					ProjectRef = 7F69D48E191AB75300C744A4 /* operators_day3.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				7F69D462191AA6D200C744A4 /* day3 */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7F69D493191AB75400C744A4 /* operators_day3 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = operators_day3;
+			remoteRef = 7F69D492191AB75400C744A4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7F69D4B3191ABC5C00C744A4 /* calculator_yuvi */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = calculator_yuvi;
+			remoteRef = 7F69D4B2191ABC5C00C744A4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7F69D4D3191AC29D00C744A4 /* forloop */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = forloop;
+			remoteRef = 7F69D4D2191AC29D00C744A4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7F69D45F191AA6D200C744A4 /* Sources */ = {
@@ -253,6 +345,7 @@
 				7F69D473191AA6D200C744A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
